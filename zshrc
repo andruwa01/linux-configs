@@ -105,7 +105,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Cusom aliases
-alias update="sudo apt update && sudo apt upgrade"
+alias update_dpds="sudo apt-get --with-new-pkgs upgrade $(apt list --upgradable 2>/dev/null | grep -oP '^[^/]+')"
 
 # change color of folder using ls (di) and executable color (ow)
 _ls_colors=":ow=01;33:di=1;36:" 
