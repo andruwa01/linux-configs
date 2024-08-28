@@ -118,6 +118,7 @@ fi
 
 export PATH="$PATH:/home/user/Downloads/mkspiffs"
 export PATH="/home/user/esp/esp-idf/components/spiffs:$PATH"
+
 alias get_idf_tools="source /home/user/esp/esp-idf/export.sh" 
 alias unlock_port_usb0="sudo chmod a+rw /dev/ttyUSB0"
 alias unlock_port_acm0="sudo chmod a+rw /dev/ttyACM0"
