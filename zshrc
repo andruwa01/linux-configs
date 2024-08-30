@@ -104,8 +104,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Cusom aliases
-alias upgrade_with_new_dpds="sudo apt-get --with-new-pkgs upgrade $(apt list --upgradable 2>/dev/null | grep -oP '^[^/]+')"
+# Customizw aliases
+alias upgrade_with_new_pkgs="sudo apt-get --with-new-pkgs upgrade $(apt list --upgradable 2>/dev/null | grep -oP '^[^/]+')"
 
 # some more ls aliases
 alias ll='ls -alF'
