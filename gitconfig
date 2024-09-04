@@ -1,0 +1,9 @@
+[user]
+	email = cheprasov.work@gmail.com
+	name = andruwa_01
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
+[alias]
+	graph = log --oneline --decorate --graph
