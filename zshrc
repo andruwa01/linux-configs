@@ -107,6 +107,7 @@ source $ZSH/oh-my-zsh.sh
 # Customizw aliases
 alias upgrade-with-new-pkgs="sudo apt-get --with-new-pkgs upgrade $(apt list --upgradable 2>/dev/null | grep -oP '^[^/]+')"
 alias update-and-upgrade="sudo apt update && sudo apt upgrade"
+alias update-and-upgrade-with-new-pkgs="update-and-upgrade && upgrade-with-new-pkgs"
 alias check-port="sudo netstat -tunlp | grep"
 
 # some more ls aliases
