@@ -105,7 +105,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Customizw aliases
-alias upgrade-with-new-pkgs="sudo apt-get --with-new-pkgs upgrade $(apt list --upgradable 2>/dev/null | grep -oP '^[^/]+')"
 alias update-and-upgrade="sudo apt update && sudo apt upgrade"
 alias update-and-upgrade-with-new-pkgs="update-and-upgrade && upgrade-with-new-pkgs"
 alias check-port="sudo netstat -tunlp | grep"
@@ -119,3 +118,8 @@ alias l='ls -CF'
 _ls_colors=":ow=01;33:di=1;36:" 
 zstyle ':completion:*:default' list-colors "${(s.:.)_ls_colors}"
 LS_COLORS+=$_ls_colors
+
+# Functions
+upgrade-with-new-pkgs() {
+ 	sudo apt-get --with-new-pkgs upgrade $(apt list --upgradable 2>/dev/null | grep -oP '^[^/]+')
+}
