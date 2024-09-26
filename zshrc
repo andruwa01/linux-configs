@@ -116,6 +116,8 @@ alias check-port="sudo netstat -tunlp | grep"
 #functions
 
 # Functions
+
+# upgrade and install new dependencies if needs
 upgrade-with-new-pkgs() {
  	sudo apt-get --with-new-pkgs upgrade $(apt list --upgradable 2>/dev/null | grep -oP '^[^/]+')
 }
