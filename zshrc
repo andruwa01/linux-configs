@@ -112,8 +112,7 @@ source $ZSH/oh-my-zsh.sh
 alias update-and-upgrade="sudo apt update && sudo apt upgrade"
 alias update-and-upgrade-with-new-pkgs="update-and-upgrade && upgrade-with-new-pkgs"
 alias check-port="sudo netstat -tunlp | grep"
-
-#functions
+alias speed-test="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -"
 
 # Functions
 

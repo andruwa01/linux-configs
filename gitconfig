@@ -5,5 +5,3 @@
 	defaultBranch = main
 [core]
 	editor = vim
-[alias]
-	graph = log --oneline --decorate --graph
