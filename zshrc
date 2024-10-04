@@ -109,18 +109,9 @@ source $ZSH/oh-my-zsh.sh
 
 # aliases
 
-alias update-and-upgrade="sudo apt update && sudo apt -y upgrade"
-alias update-and-upgrade-with-new-pkgs="update-and-upgrade && upgrade-with-new-pkgs"
 alias check-port="sudo netstat -tunlp | grep"
 alias get-public-ip="curl -s https://checkip.amazonaws.com"
 alias speed-test="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -"
-
-# Functions
-
-# upgrade and install new dependencies if needs
-upgrade-with-new-pkgs() {
- 	sudo apt -y --with-new-pkgs upgrade $(apt list --upgradable 2>/dev/null | grep -oP '^[^/]+')
-}
 
 # ===============================
 # some more ls aliases
