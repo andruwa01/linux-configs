@@ -109,7 +109,7 @@ source $ZSH/oh-my-zsh.sh
 
 # aliases
 
-alias get-public-ip="curl -s https://checkip.amazonaws.com"
+alias get-public-ip="curl -s https://ipinfo.io"
 alias speed-test="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -"
 
 # ===============================
