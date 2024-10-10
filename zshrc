@@ -109,7 +109,6 @@ source $ZSH/oh-my-zsh.sh
 
 # aliases
 
-alias check-port="sudo netstat -tunlp | grep"
 alias get-public-ip="curl -s https://checkip.amazonaws.com"
 alias speed-test="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -"
 
