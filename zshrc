@@ -123,3 +123,15 @@ _ls_colors=":ow=01;33:di=1;36:"
 zstyle ':completion:*:default' list-colors "${(s.:.)_ls_colors}"
 LS_COLORS+=$_ls_colors
 
+# Include proxy settings
+export HTTP_PROXY="http://127.0.0.1:2081/"
+export all_proxy="socks://127.0.0.1:2080/"
+export NO_PROXY="localhost,127.0.0.0/8,::1"
+export ALL_PROXY="socks://127.0.0.1:2080/"
+export http_proxy="http://127.0.0.1:2081/"
+export HTTPS_PROXY="http://127.0.0.1:2081/"
+export FTP_PROXY="http://127.0.0.1:2081/"
+export ftp_proxy="http://127.0.0.1:2081/"
+export no_proxy="localhost,127.0.0.0/8,::1"
+export https_proxy="http://127.0.0.1:2081/"
+
