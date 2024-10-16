@@ -1,6 +1,7 @@
 " This is vimrc with vim-plug plugin manager for vim
 
 set tabstop=4
+set shiftwidth=4
 syntax on
 set number
 set relativenumber
