@@ -1,3 +1,4 @@
-- Current color theme: gruvbox dark soft
-- Vim plugin manager: vim-plug.
-- Terminal themes manager: gogh-co.
+- Current color theme		: gruvbox dark soft
+- Vim plugin manager		: vim-plug.
+- Terminal themes manager	: gogh-co.
+- Second terminal			: guake.
