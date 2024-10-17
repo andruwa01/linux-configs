@@ -2,3 +2,4 @@
 - Vim plugin manager		: vim-plug.
 - Terminal themes manager	: gogh-co.
 - Second terminal			: guake.
+- vscode theme				: gruvbox material dark
