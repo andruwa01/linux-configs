@@ -107,16 +107,16 @@ source $ZSH/oh-my-zsh.sh
 # Custom aliases & functions
 # ===============================
 
-# aliases
-
 alias get-public-ip="curl -s https://ipinfo.io"
 alias speed-test="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -"
 
-# ===============================
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
+# add alias for using vimrc file with sudo
+alias svim="sudo -E vim"
 
 # change color of folder using ls (di) and executable color (ow)
 _ls_colors=":ow=01;33:di=1;36:" 
