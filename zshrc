@@ -112,6 +112,11 @@ source $ZSH/oh-my-zsh.sh
 alias get-public-ip="curl -s https://ipinfo.io"
 alias speed-test="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -"
 
+vman() {
+    vim -c "Man $1" -c "only"
+}
+
+
 # ===============================
 # some more ls aliases
 alias ll='ls -alF'
