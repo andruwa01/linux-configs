@@ -104,6 +104,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Export stuff
+# For java applications
+export JAVA_HOME="/usr/bin/java"
+
 # Custom aliases & functions
 # ===============================
 
