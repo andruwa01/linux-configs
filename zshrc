@@ -106,7 +106,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Export stuff
 # For java applications
-export JAVA_HOME="/usr/bin/java"
+export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 
 # Custom aliases & functions
 # ===============================
