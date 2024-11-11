@@ -114,9 +114,42 @@ export JAVA_HOME="/usr/bin/java"
 alias get-public-ip="curl -s https://ipinfo.io"
 alias speed-test="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -"
 
+# Use man page with vim with one command
 vman() {
     vim -c "Man $1" -c "only"
 }
+
+# Function for enabling proxy
+enable_proxy(){
+	export HTTP_PROXY="http://127.0.0.1:2081/"
+	export all_proxy="socks://127.0.0.1:2080/"
+	export NO_PROXY="localhost,127.0.0.0/8,::1"
+	export ALL_PROXY="socks://127.0.0.1:2080/"
+	export http_proxy="http://127.0.0.1:2081/"
+	export HTTPS_PROXY="http://127.0.0.1:2081/"
+	export FTP_PROXY="http://127.0.0.1:2081/"
+	export ftp_proxy="http://127.0.0.1:2081/"
+	export no_proxy="localhost,127.0.0.0/8,::1"
+	export https_proxy="http://127.0.0.1:2081/"
+	echo 'Proxy enabled'
+}
+
+# Function for disabling proxy
+disable_proxy(){
+	unset HTTP_PROXY
+	unset all_proxy
+	unset NO_PROXY
+	unset ALL_PROXY
+	unset http_proxy
+	unset HTTPS_PROXY
+	unset FTP_PROXY
+	unset ftp_proxy
+	unset no_proxy
+	unset https_proxy
+	echo 'Proxy disabled'
+}
+
+
 
 # ===============================
 # some more ls aliases
