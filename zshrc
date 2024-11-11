@@ -131,6 +131,7 @@ enable_proxy(){
 	export ftp_proxy="http://127.0.0.1:2081/"
 	export no_proxy="localhost,127.0.0.0/8,::1"
 	export https_proxy="http://127.0.0.1:2081/"
+
 	echo 'Proxy enabled'
 }
 
@@ -146,6 +147,7 @@ disable_proxy(){
 	unset ftp_proxy
 	unset no_proxy
 	unset https_proxy
+
 	echo 'Proxy disabled'
 }
 
