@@ -109,7 +109,8 @@ source $ZSH/oh-my-zsh.sh
 export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 
 # Custom aliases & functions
-# ===============================
+# <===============================>
+# <===============================>
 
 alias get-public-ip="curl -s https://ipinfo.io"
 alias speed-test="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -"
@@ -154,7 +155,8 @@ disable_proxy()
 	echo 'Proxy disabled'
 }
 
-# ===============================
+# <===============================>
+# <===============================>
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
