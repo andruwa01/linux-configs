@@ -1,5 +1,5 @@
-- Current color theme		: gruvbox dark soft
+- current color theme		: gruvbox dark soft
 - vscode theme				: gruvbox material dark
-- Vim plugin manager		: vim-plug
-- Terminal themes manager	: gogh-co
-- Second terminal			: guake
+- vim plugin manager		: vim-plug
+- terminal themes manager	: gogh-co
+- second terminal			: guake
