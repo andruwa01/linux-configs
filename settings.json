@@ -6,7 +6,6 @@
         "editor.findMatchBackground": "#ffdc526b",
         "editor.findMatchHighlightBackground": "#ffdc526b",
         "editor.selectionBackground":"#ffdc526b",
-        "editor.selectionHighlightBackground": "#ffdc526b",
     },
     // vim settings
     "vim.hlsearch": true,
