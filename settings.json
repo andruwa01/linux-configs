@@ -1,7 +1,10 @@
 {
+    // color theme of vscode
     "workbench.colorTheme": "Best Themes - Gruvbox Material Dark",
+    // editor settings
     "editor.cursorBlinking": "solid",
     "editor.occurrencesHighlight": "multiFile",
+    "editor.fontFamily": "Cascadia Mono",
     "workbench.colorCustomizations": {
         "editor.findMatchBackground": "#ffdc526b",
         "editor.findMatchHighlightBackground": "#ffdc526b",
@@ -9,5 +12,8 @@
     },
     // vim settings
     "vim.hlsearch": true,
-    "vim.smartRelativeLine": true
+    "vim.smartRelativeLine": true,
+    "editor.unicodeHighlight.allowedLocales": {
+        "ru": true
+    }
 }
