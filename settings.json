@@ -1,6 +1,8 @@
 {
     // color theme of vscode
-    "workbench.colorTheme": "Best Themes - Gruvbox Material Dark",
+	// - windows: ?
+	// - linux: Gruvbox Material Dark
+    "workbench.colorTheme": "Gruvbox Material Dark",
     // editor settings
     "editor.cursorBlinking": "solid",
     "editor.occurrencesHighlight": "multiFile",

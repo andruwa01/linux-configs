@@ -4,3 +4,4 @@
 - vim plugin manager		: vim-plug
 - terminal themes manager	: gogh-co
 - second terminal			: guake
+- favourite font 			: cascasia-code (from windows)
