@@ -5,6 +5,7 @@
 - terminal wrapper: `zsh`. (`.zshrc` from github).
 - terminal themes manager	: gogh-co
     - install terimnal theme (`gruvbox material dark`): `bash -c "$(wget -qO- https://git.io/vQgMr)"`
+    - or we can just load terminal settings with this theme: `dconf load /org/gnome/terminal/ < Documents/linux-configs/gnome_terminal_settings.txt` 
 - second terminal			: guake
     - `sudo apt install guake`
     - load preferences file with `guake --restore-preferences guake-config`
