@@ -2,6 +2,9 @@
 default='82436298-f74a-4d41-b22b-17b6e4afe0ca'
 list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', '82436298-f74a-4d41-b22b-17b6e4afe0ca']
 
+[legacy/profiles:/:75080261-c295-4aca-9045-9ab317f7c980]
+visible-name='default'
+
 [legacy/profiles:/:82436298-f74a-4d41-b22b-17b6e4afe0ca]
 allow-bold=true
 background-color='#282828282828'
