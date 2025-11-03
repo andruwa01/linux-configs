@@ -1,7 +1,10 @@
-- current color theme		: gruvbox dark soft
-- vscode theme				: gruvbox material dark
-- obsidian color theme		: obsidian gruvbox
-- vim plugin manager		: vim-plug
+- vscode theme				: `gruvbox material dark`.
+- obsidian color theme		: `obsidian gruvbox`.
+- vim plugin manager		: vim-plug (don't forget `:PlugInstall` to update vim from github's `.vimrc` file).
+    - vim support clipboard with `"+y`: `sudo apt install vim-gtk3`
+- terminal wrapper: `zsh`. (`.zshrc` from github).
 - terminal themes manager	: gogh-co
+    - install terimnal theme (`gruvbox material dark`): `bash -c "$(wget -qO- https://git.io/vQgMr)"`
 - second terminal			: guake
-- favourite font 			: cascasia-code (from windows)
+    - `sudo apt install guake`
+- favourite font 			: cascasia-code (from windows) (on linux Debian `sudo apt install fonts-cascadia-code`)
