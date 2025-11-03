@@ -8,4 +8,8 @@
 - second terminal			: guake
     - `sudo apt install guake`
     - load preferences file with `guake --restore-preferences guake-config`
+    - add custom shortcut with params:
+        - name `Guake`
+        - command `guake-toggle`
+        - shortcut: `ctrl + f12`
 - favourite font 			: cascasia-code (from windows) (on linux Debian `sudo apt install fonts-cascadia-code`)
