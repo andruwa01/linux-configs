@@ -7,4 +7,5 @@
     - install terimnal theme (`gruvbox material dark`): `bash -c "$(wget -qO- https://git.io/vQgMr)"`
 - second terminal			: guake
     - `sudo apt install guake`
+    - load preferences file with `guake --restore-preferences guake-config`
 - favourite font 			: cascasia-code (from windows) (on linux Debian `sudo apt install fonts-cascadia-code`)
