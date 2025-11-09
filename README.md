@@ -15,3 +15,4 @@
         - shortcut: `ctrl + f12`
 - favourite font 			: cascasia-code (from windows) (on linux Debian `sudo apt install fonts-cascadia-code`)
 - fix bluetooth with airpods pro: https://gist.github.com/aidos-dev/b49078c1d8c6bb1621e4ac199d18213b
+- fix issue with windows utc when dualbooting `sudo timedatectl set-local-rtc 1 --adjust-system-clock` (exists alias in `.zshrc`).

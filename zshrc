@@ -165,6 +165,9 @@ alias l='ls -CF'
 # add alias for using vimrc file with sudo
 alias svim="sudo -E vim"
 
+# fix with problems with UTC when dual-boot with windows
+alias sync_with_win="sudo timedatectl set-local-rtc 1 --adjust-system-clock"
+
 # change color of folder using ls (di) and executable color (ow)
 _ls_colors=":ow=01;33:di=1;36:" 
 zstyle ':completion:*:default' list-colors "${(s.:.)_ls_colors}"
